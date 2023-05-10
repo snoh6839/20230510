@@ -10,9 +10,11 @@
 </head>
 
 <body>
-    <div id="imageContainer"></div>
+    <div id="imageContainer">
+        <img src="https://picsum.photos/id/13/2500/1667" alt="defaultImg" class="defaultImg">
+    </div>
     <form>
-        <label for="urlInputName">url을 이곳에 입력하세요: </label><input type="text" id="urlInputName" name="urlInputName">
+        <label for="urlInputName">url을 이곳에 입력하세요: </label><input placeholder="url을 이곳에 입력하세요" onfocus="this.placeholder=' '" onblur="this.placeholder='url을 이곳에 입력하세요'" type="text" id="urlInputName" name="urlInputName">
         <button type="button" onclick="runAPI()">API 실행</button>
         <button type="button" onclick="resetAPI()">이미지 삭제</button>
     </form>

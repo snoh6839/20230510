@@ -2,10 +2,27 @@
 
 /* * {margin: 0; padding: 0;} */
 
+#imageContainer {
+    background-color: black;
+    margin: 3px;
+    border-width: 3px 0px;
+    border-style: solid;
+    border-color: red ;
+}
+
 .resizePic {
-    margin: 0px 5px;
     box-sizing: border-box;
+    /* padding: 10px; */
+    margin: 10px;
     width: 200px;
     height: 200px;
-    object-fit: contain;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+
+.defaultImg {
+    width: 100%;
+    height: 200px;
+    
 }

@@ -1,7 +1,7 @@
 function runAPI() {
 const url = document.getElementById("urlInputName").value;
     if (!url) {
-    console.log("url을 입력해주세요.");
+    alert("url을 입력해주세요.");
     return;
     }
 fetch(url)
