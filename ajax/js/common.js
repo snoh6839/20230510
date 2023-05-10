@@ -1,3 +1,6 @@
+// 1. 현재 적용된 고정값 대신 input으로 url 받아오기
+// 2. 처음에는 아무것도 안뜨다가 API 실행 버튼을 누르면 해당 url이 실행됨.
+// 3. 이미지는 form 위에 정렬
 const url = "https://picsum.photos/v2/list?page=1&limit=5";
 
 fetch(url)
